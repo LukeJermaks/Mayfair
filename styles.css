@@ -1,0 +1,244 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Elements */
+
+html{
+	height: 100%;
+}
+
+body{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+
+
+/* IDs */
+
+
+			/* S E C T I O N   1 */
+
+#section-1{
+	height: 100%;
+	width: 100%;
+	
+	background-image: url("images/top-bg.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+
+
+
+#main{
+	height: 100%;
+	width: 100%;
+    background-color: rgba(102, 153, 204, 0.5);
+	
+}
+
+#nav-menu{
+	
+    text-align: right;
+	
+	
+}
+#bmenu{
+	display: inline-block;
+	position: relative;
+	
+	padding: 40px 55px 0 0;
+}
+
+
+#upper-div{
+	color:#FFFFFF;
+	font-weight: 200;
+	letter-spacing: 3px;
+	text-align: center;
+	align-content: bottom;
+	vertical-align: bottom;
+	padding: auto 0px;
+	height: 40%;
+	
+	display: grid;
+	grid-template-columns: auto 356px auto;
+	grid-template-rows: auto auto;
+}
+
+
+
+#lower-div{
+	font-weight: 200;
+	text-align: center;
+	align-content: center;
+	vertical-align: center;
+	padding: 30px 0px 30x 0px;
+}
+
+#title{
+	color:#FFFFFF;
+	letter-spacing: 3px;
+	font-size: 50px;
+}
+
+#upper-buttons{
+	width:100%;
+	display: grid;
+	grid-template-columns: 20% auto auto auto 20%;
+	height: 70px;
+	grid-gap: 100px;	
+}
+
+.main-btn{
+	height: 70px;
+	width: 220px;
+	border: 2px solid #FFFFFF;
+	backface-visibility: hidden;
+	background-color: rgba(0,0,0,0.00);
+	color: #FFFFFF;
+}
+
+
+			/* S E C T I O N   2 */
+
+#section-2{
+	margin: 0px;
+	
+	height: 100%;
+	background-color: rgb(203,214,222);
+}
+
+#upper-mid{
+	height: 40%;
+	width: 100%;
+	
+}
+
+
+#locations{
+	margin: 0px;
+	letter-spacing: 1px;
+	text-align: center;
+	padding-top: 200px;
+	color: rgba(56, 66, 78, 1);
+}
+
+
+
+			/* S E C T I O N   3 */
+
+#section-3{
+	margin: 0px;
+	padding: 50px 50px 0px 50px;
+	height: 40%;
+	background-color: #FFFFFF;
+	color: rgb(56,66,78);
+	
+	text-align: center;
+}
+
+#sec-3-title{
+	padding-top: 25px
+}
+
+#sec-3-images{
+	padding: 50px;
+	
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto;
+	grid-gap: 150px;
+	
+	justify-content: center;
+}
+	
+.awards-img{
+	
+}
+
+
+			/* S E C T I O N   4 */
+
+#section-4{
+	margin: 0px;
+	height: 100%;
+	background-color: rgba(240,243,248);
+}
+
+
+			/* S E C T I O N   5 */
+
+#section-5{
+	margin: 0px;
+	height: 30%;
+	background-color: rgb(56,66,78);
+}
+
+
+#mayfair-info{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	
+	color: #FFFFFF;
+	
+	padding: 10px 0px;
+	
+
+}
+
+.footer-title{
+	list-style: none;
+	font-weight: 400;
+	padding: 10px 0px;
+	
+}
+
+.footer-content{
+	list-style: none;
+	font-family: 'Times New Roman';
+	padding: 2px 0px;
+	
+}
+
+
+
+#sec-5-lower{
+	display: grid;
+	grid-template-columns: auto auto;	
+}
+
+#follow-us{
+	
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+
+
+
+
+/* Global Classes */
+
+.test{
+	border-bottom: 4px rgba(56, 66, 78, 1) solid;
+	padding-bottom: 20px;
+	
+}
+
+.title{
+	letter-spacing: 3px;
+	font-size: 40px;
+}
+
+.underline{
+	margin-left: auto;
+	margin-right: auto;
+	height: 10px;
+	width: 80px;
+	border-bottom: rgba(56, 66, 78, 1) solid 5px;
+}
