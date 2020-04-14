@@ -59,15 +59,13 @@ body{
 	color:#FFFFFF;
 	font-weight: 200;
 	letter-spacing: 3px;
-	text-align: center;
-	align-content: bottom;
-	vertical-align: bottom;
 	padding: auto 0px;
 	height: 40%;
 	
-	display: grid;
-	grid-template-columns: auto 356px auto;
-	grid-template-rows: auto auto;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: space-around;
 }
 
 
@@ -218,7 +216,12 @@ body{
 	justify-content: flex-end;
 }
 
-
+.footer-nav{
+	margin:40px;
+	color: #FFFFFF;
+	font-family: 'Times New Roman';
+	font-weight: 100;
+}
 
 
 
