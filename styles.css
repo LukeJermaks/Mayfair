@@ -15,11 +15,6 @@ body{
     font-family: 'Archivo Narrow', sans-serif;
 }
 
-
-
-/* IDs */
-
-
 			/* S E C T I O N   1 */
 
 #section-1{
@@ -47,9 +42,6 @@ body{
 }
 
 #bmenu{
-	display: inline-block;
-	position: relative;
-	
 	padding: 40px 55px 0 0;
 }
 
@@ -78,6 +70,11 @@ body{
 	color:#FFFFFF;
 	letter-spacing: 3px;
 	font-size: 50px;
+}
+
+#mayfair-fish-img1{
+	width: 500px;
+	height: 225px;
 }
 
 #upper-buttons{
@@ -135,14 +132,14 @@ body{
 	color: rgba(56, 66, 78, 1);
 }
 
-#curled-txt{
-	
-	display: flex;
-	justify-content: center;
-}
-
 #curled-img{
 	z-index: 1000;
+	display: absolute;
+	background-image: url("images/curled-text.png");
+	height: 100px;
+	background-repeat: no-repeat;
+	
+	
 	
 }
 
@@ -152,14 +149,46 @@ body{
 	flex-direction: row;
 	
 	justify-content: center;
+	color: rgba(56, 66, 78, 1)
 
+}
+.loc-div{
+	text-align: center;
 }
 
 .loc-img{
 	width: 250px;
 	height: 250px;
+	margin: 20px 100px;
 }
 
+#lower-sec-2{
+	z-index: 10;
+	position: relative;
+	text-align: center;
+	font-size: 35px;
+	margin: 10px 270px;
+	color: rgba(57, 70, 83, 1);	
+	font-family: "Times New Roman";
+	letter-spacing: 2px	
+}
+
+#sec-2-bg{
+	z-index: 5;
+	position: absolute;
+	background-image: url("images/MayfairFish3.png");
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: 60% 95%;
+	opacity: 0.30;
+	height: 100%;
+	width: 90%;
+}
+
+.above{
+	z-index: 10;
+	opacity: 1;
+}
 
 			/* S E C T I O N   3 */
 
@@ -195,6 +224,75 @@ body{
 	background-color: rgba(240,243,248);
 }
 
+#sec-4-main{
+	display: table;
+	vertical-align: middle;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+#sec-4-content{
+	display: flex;
+	flex-direction: row;
+	
+	margin: auto 0px auto;
+	width: 100%;
+}
+
+#sec-4-prev{
+	height: 50px;
+	transform: rotate(90deg);
+}
+
+#our-story-div{
+	width: 40%;
+	text-align: center;
+	margin: 50px;
+}
+
+#sec-4-title{
+	
+}
+
+#our-story-para{
+	
+}
+
+#more-story:link{
+	text-decoration: none;
+	color: rgba(57, 70, 83, 1);
+}
+
+#more-story:visited {
+	text-decoration: none;
+	color: rgba(57, 70, 83, 1);
+}
+
+#more-story:hover {
+	text-decoration: none;
+	color: rgba(37, 45, 54, 1);
+}
+
+#more-story:active {
+	text-decoration: none;
+	color: rgba(57, 70, 83, 1);
+}
+
+#sec-4-next{
+	height: 50px;
+	transform: rotate(-90deg);
+	
+}
+
+.sec-4-global{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.sec-4-sides{
+	text-align: center;
+	width: 100%;
+}
 
 			/* S E C T I O N   5 */
 
@@ -247,6 +345,15 @@ body{
 	color: #FFFFFF;
 	font-family: 'Times New Roman';
 	font-weight: 100;
+}
+
+.footer-img{
+	height: 37px;
+	display: table-cell;
+	vertical-align: middle;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: 37px;
 }
 
 /* Global Classes */
