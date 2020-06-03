@@ -116,19 +116,24 @@ body{
 	
 	height: 100%;
 	background-color: rgb(203,214,222);
+	text-align: center;
 }
 
-#upper-mid{
-	height: 40%;
-	width: 100%;
+#upper-sec-2{
+	display: table-cell;
+	vertical-align: bottom;
+	
+	height: 20vh;
+	width: 100vw;
 	
 }
 
 #locations{
+	
+	
 	margin: 0px 0px 10px 0px;
 	letter-spacing: 1px;
 	text-align: center;
-	padding-top: 200px;
 	color: rgba(56, 66, 78, 1);
 }
 
@@ -144,6 +149,7 @@ body{
 }
 
 #location-images{
+	margin-top: 20px;
 	
 	display: flex;
 	flex-direction: row;
@@ -225,15 +231,16 @@ body{
 }
 
 #sec-4-main{
-	display: table;
+	display: table-cell;
 	vertical-align: middle;
-	margin-top: auto;
-	margin-bottom: auto;
+	height: 100vh;
 }
 
 #sec-4-content{
-	display: flex;
-	flex-direction: row;
+	display: grid;
+	
+	grid-template-columns: 1fr 3fr 4fr 1fr;
+	grid-template-rows: 400px;
 	
 	margin: auto 0px auto;
 	width: 100%;
@@ -245,17 +252,22 @@ body{
 }
 
 #our-story-div{
-	width: 40%;
 	text-align: center;
-	margin: 50px;
+	color: rgba(57, 70, 83, 1);
+	margin: auto 100px;
 }
 
 #sec-4-title{
-	
+	font-size: 35px;
 }
 
 #our-story-para{
-	
+	font-family:"Times New Roman", "serif";
+	font-size: 25px;
+}
+
+#sec-4-underline{
+	margin-bottom: 50px;
 }
 
 #more-story:link{
@@ -278,19 +290,35 @@ body{
 	color: rgba(57, 70, 83, 1);
 }
 
+#sec-4-fish-div{
+	display: table-cell;
+	height: 500px;
+	vertical-align: middle;
+}
+
+#sec-4-fish{
+	margin: auto;
+	text-align: center;
+	width: 760px;
+	height: 330px;
+}
+
 #sec-4-next{
-	height: 50px;
-	transform: rotate(-90deg);
-	
+	display: table-cell;
+	vertical-align: middle;
+	color: #fff;
 }
 
 .sec-4-global{
-	display: table-cell;
+	display: table;
 	vertical-align: middle;
+	height: 100%;
 }
 
 .sec-4-sides{
 	text-align: center;
+	font-family:"Times New Roman", "serif";
+	font-size: 30px;
 	width: 100%;
 }
 
@@ -330,7 +358,9 @@ body{
 
 #sec-5-lower{
 	display: grid;
-	grid-template-columns: auto auto;	
+	grid-template-columns: auto auto;
+	grid-template-rows: 50px;
+	margin-top: 20px;
 }
 
 #follow-us{
@@ -341,10 +371,10 @@ body{
 }
 
 .footer-nav{
-	margin:40px;
 	color: #FFFFFF;
 	font-family: 'Times New Roman';
 	font-weight: 100;
+	margin: auto 40px;
 }
 
 .footer-img{
